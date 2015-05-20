@@ -53,6 +53,6 @@
   },
   "scripts": {
     "install": "bower install",
-    "postinstall": "gulp",
+    "postinstall": "gulp"
   }
 }
