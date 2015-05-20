@@ -44,7 +44,8 @@
   "dependencies": {
     "bower": "^1.4.1",
     "express": "~4.11.*",
-    "faye-websocket": "^0.9.*"
+    "faye-websocket": "^0.9.*",
+    "gulp": "^3.8.11"
   },
   "optionalDependencies": {
     "influx": "^3.2.*",
