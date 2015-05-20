@@ -53,5 +53,7 @@
   },
   "scripts": {
     "install": "bower install"
+    "build": "gulp",
+    "start": "node bin/curvytron.js"
   }
 }
