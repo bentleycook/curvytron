@@ -135,6 +135,10 @@ gulp.task('copy-stress-test', function() {
         .pipe(gulp.dest(recipes.client.path));
 });
 
+gulp.task('heroku:production', function(){
+  runSeq('default');
+})
+
 gulp.task('watch', ['dev'], function () {
     gulp.watch('src/**/*.js', ['jshint', 'server', 'front-full']);
     gulp.watch('src/client/views/**/*', ['views']);
