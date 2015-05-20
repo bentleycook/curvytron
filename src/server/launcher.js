@@ -8,7 +8,7 @@ var config,
         port: process.env.PORT || 8080,
         inspector: { enabled: false }
     };
-}
+// }
 
 var server = new Server({ port: config.port });
 
